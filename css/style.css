@@ -3,21 +3,29 @@
 }
 
 :root{
-  --primary-color: #0c70cd;
+ --primary-color: #0c70cd;
 --secondary-color: #ffe95d;
 --background-color: #fff
 
 }
 
 body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 300px 300px 300px;
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
+
+.hero-banner{
+  
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 300px 300px 300px;
+}
+
 
 a {
   color: blueviolet ;
